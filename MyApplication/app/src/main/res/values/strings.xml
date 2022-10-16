@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home_title">主页</string>
+    <string name="message">消息</string>
+    <string name="my">我的</string>
+    <string name="hello_blank_fragment">Hellow blank fragment</string>
+</resources>

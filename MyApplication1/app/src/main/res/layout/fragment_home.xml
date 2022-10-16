@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="90dp">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/ll_main_radio"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+
+        android:layout_alignParentBottom="true"
+        android:paddingTop="0dp">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_main"
+                style="@style/nav_style"
+                android:checked="true"
+                android:drawableTop="@drawable/nav_draw_home"
+                android:text="@string/nav_home"/>
+
+            <RadioButton
+                android:id="@+id/rb_message"
+                style="@style/nav_style"
+                android:drawableTop="@drawable/nav_draw_shield"
+                android:text="@string/nav_shield"/>
+
+            <RadioButton
+                android:id="@+id/rb_find"
+                style="@style/nav_style"
+                android:drawableTop="@drawable/nav_draw_search"
+                android:text="@string/nav_search"/>
+
+            <RadioButton
+                android:id="@+id/rb_my"
+                style="@style/nav_style"
+                android:drawableTop="@drawable/nav_draw_person"
+                android:text="@string/nav_person"/>
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

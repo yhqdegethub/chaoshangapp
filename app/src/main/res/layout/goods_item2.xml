@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_goods"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xinping1" />
+
+    <TextView
+        android:id="@+id/tv_goods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_goods"
+        android:layout_alignLeft="@id/iv_goods"
+        android:text="跑鞋"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:layout_below="@id/tv_goods"
+        android:layout_alignLeft="@id/tv_goods"
+        android:text="舒服耐磨"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_price"
+        android:text="￥500.00"
+        android:layout_below="@+id/tv_info"
+        android:layout_alignLeft="@+id/tv_info"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_num"
+        android:layout_below="@+id/tv_info"
+        android:layout_alignRight="@+id/iv_goods"
+        android:text="800"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_info"
+        android:layout_toLeftOf="@id/tv_num"
+        android:text="销量" />
+
+
+</RelativeLayout>

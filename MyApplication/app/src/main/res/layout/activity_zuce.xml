@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/login_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="手机密码登录"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/login_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information"
+        android:layout_marginLeft="100dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:text="登录后更精彩"
+        android:layout_weight="3"/>
+
+    <EditText
+        android:id="@+id/number_1"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="+86   请输入手机号"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/number_2"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入验证码"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/login_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information"
+        android:layout_marginLeft="100dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:text="登录注册代表同意用户协议和隐私注册"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_1"
+        android:layout_below="@id/text"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="同意协议并登陆"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/login_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information"
+        android:layout_marginLeft="100dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:text="登录遇到问题？"
+        android:layout_weight="5"/>
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/people"
+        android:layout_marginTop="25dp"
+        android:text="-----------------------------——---------社交账号登录--------------------------------" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/img"
+        android:layout_marginLeft="90dp"
+
+        />
+    <ImageView
+        android:id="@+id/w_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/img_1"
+        android:layout_marginLeft="190dp"
+        />
+        <ImageView
+            android:id="@+id/w_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/img_2"
+            android:layout_marginLeft="280dp"
+            />
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="上一次登录" />
+</LinearLayout>

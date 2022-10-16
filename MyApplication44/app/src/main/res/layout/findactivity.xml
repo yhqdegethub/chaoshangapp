@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindactivityActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/login_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="录入驾照副页信息" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/paishe"
+        android:layout_marginTop="70dp"
+        android:id="@+id/w"/>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="姓名："
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/NameTextView"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="12"
+            android:id="@+id/NameEditText"
+            android:inputType="textPersonName"
+            android:hint="请输入姓名"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="证件号："
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/NameTextView1"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="12"
+            android:id="@+id/NameEditText2"
+            android:inputType="textPersonName"
+            android:hint="请输入证件号"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="档案编号："
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/NameTextView3"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="12"
+            android:id="@+id/NameEditText4"
+            android:inputType="textPersonName"
+            android:hint="请输入档案编号"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_1"
+        android:layout_below="@id/text"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="下一步" />
+
+
+
+</LinearLayout>

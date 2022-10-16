@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/img3"
+        android:layout_marginTop="70dp"
+        android:id="@+id/w"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/w"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入账号" />
+    <EditText
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_below="@id/et_name"
+        android:hint="请输入密码"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_1ogin"
+        android:layout_below="@id/text"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="登录" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_back"
+        android:layout_below="@id/bt_1ogin"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/id_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_back"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:text="切换其他方式登录"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_2"
+        android:layout_below="@id/id_1"
+        android:text="-----------------------------——使用微信登录--------------------------------"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/weixin"
+        android:id="@+id/id_3"
+        android:layout_below="@id/id_2"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yz"
+        android:text="登录即表示同意天翼认证服务条款"
+        android:layout_below="@id/id_3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"/>
+
+
+
+</RelativeLayout>

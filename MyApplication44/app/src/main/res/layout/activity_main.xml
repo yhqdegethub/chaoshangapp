@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/kaiche"
+            android:maxWidth="90dp"
+            android:text="开车赚钱" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/weizhang"
+            android:maxWidth="90dp"
+            android:text="查违规" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/tingche"
+            android:maxWidth="90dp"
+            android:text="停车缴费" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/jiayou"
+            android:maxWidth="90dp"
+            android:text="优惠加油" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/shangcheng"
+            android:maxWidth="90dp"
+            android:text="车主商城" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="465dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/shouye"
+            android:maxWidth="90dp"
+            android:text="活动中心" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/zhaobaoxian"
+            android:maxWidth="90dp"
+            android:text="叫代驾" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/xiangfuwu"
+            android:maxWidth="90dp"
+            android:text="洗车" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/chequan"
+            android:maxWidth="90dp"
+            android:text="车圈" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/wode"
+            android:maxWidth="90dp"
+            android:text="车损测算" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/shouye"
+            android:maxWidth="90dp"
+            android:text="更多" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/zhaobaoxian"
+            android:maxWidth="90dp"
+            android:text="找保险" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/xiangfuwu"
+            android:maxWidth="90dp"
+            android:text="享服务" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/chequan"
+            android:maxWidth="90dp"
+            android:text="车圈" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="110dp"
+            android:drawableTop="@drawable/wode"
+            android:maxWidth="90dp"
+            android:text="我的" />
+    </LinearLayout>
+
+</LinearLayout>

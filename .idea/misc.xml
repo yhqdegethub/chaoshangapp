@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkSpace/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17083333333333334" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_address.xml" value="0.3333333333333333" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_cart.xml" value="0.15520833333333334" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_login.xml" value="0.1480978260869565" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_myinfo2.xml" value="0.14635416666666667" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_order.xml" value="0.14635416666666667" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/activity_splash2.xml" value="0.16666666666666666" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/fragment_cart_blank.xml" value="0.13179347826086957" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/fragment_home_blank.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/fragment_my_blank.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/fragment_type_blank.xml" value="0.13179347826086957" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/fragment_vip_blank.xml" value="0.13179347826086957" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/goods_item2.xml" value="0.3333333333333333" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/hometype_item.xml" value="0.13645833333333332" />
+        <entry key="..\:/WorkSpace/app/src/main/res/layout/mylist_items.xml" value="0.1390625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
